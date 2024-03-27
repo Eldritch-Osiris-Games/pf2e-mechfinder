@@ -2,6 +2,8 @@
   "id": "pf2e-mechfinder",
   "title": "Mechfinder: Universe of  Mech and Magic",
   "version": "1.0.0",
+  "manifest": "https://raw.githubusercontent.com/Eldritch-Osiris-Games/pf2e-mechfinder/main/module.json",
+  "download": "https://github.com/Eldritch-Osiris-Games/pf2e-mechfinder/archive/refs/heads/main.zip",
   "compatibility": {
     "minimum": "11",
     "verified": "11"
@@ -289,7 +291,10 @@
       {
         "id": "pf2e",
         "type": "system",
-        "compatibility": {}
+        "manifest": "https://github.com/foundryvtt/pf2e/releases/latest/download/system.json",
+        "compatibility": {
+          "minimum": "5.13.0"
+        }
       }
     ]
   }
