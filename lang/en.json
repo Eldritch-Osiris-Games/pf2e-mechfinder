@@ -1,0 +1,17 @@
+{
+   "PF2E":{
+      "Item":{
+         "Weapon":{
+            "CriticalSpecialization":{
+               "energy":"The target takes 1d6 persistent damage of an appropriate type for the weapon. You gain an item bonus to this damage equal to the weapon’s item bonus to attack rolls.",
+               "missile":"Increase the radius of the splash damage (if any) to 10 feet.",
+               "taser":"The target must succeed a @Check[type:fortitude|dc:resolve(@actor.attributes.classDC.value)|name:Taser Critical Specialization] save against your class DC or be @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1}."
+            },
+            "Traits":{
+               "shock":"On a critical hit, the targeted creature must make a @Check[type:fortitude|dc:resolve(@actor.attributes.classDC.value)|name:Shock] saving throw against your class DC, becoming @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1} on a failure.",
+               "slowing":"On a critical hit, the targeted creature takes a -10-foot circumstance penalty to its Speeds. @UUID[Compendium.pf2e-mechfinder.mechfinder-effects.Item.VEQgQhCXughnKeVv]{Effect: Slowing}"
+            }
+         }
+      }
+   }
+}

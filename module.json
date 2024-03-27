@@ -1,0 +1,296 @@
+{
+  "id": "pf2e-mechfinder",
+  "title": "Mechfinder: Universe of  Mech and Magic",
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "11"
+  },
+  "authors": [
+    {
+      "name": "Eldritch Osiris Games",
+      "url": "https://www.eldritchosirisgames.com/"
+    }
+  ],
+  "languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "Mechfinder",
+      "sorting": "a",
+      "packs": [
+        "mechfinder-actions",
+        "mechfinder-backgrounds",
+        "mechfinder-class-features",
+        "mechfinder-classes",
+        "mechfinder-creatures",
+        "mechfinder-effects",
+        "mechfinder-equipment",
+        "mechfinder-feats",
+        "mechfinder-journals",
+        "mechfinder-mech",
+        "mechfinder-spell-effects",
+        "mechfinder-spells"
+      ],
+      "folders": []
+    }
+  ],
+  "flags": {
+    "pf2e-mechfinder": {
+      "pf2e-homebrew": {
+        "baseWeapons": {
+          "acid-devastation": "Acid Devastation",
+          "acid-punishment": "Acid Punishment",
+          "bee-launcher": "Bee Launcher",
+          "bow-launcher": "Bow Launcher",
+          "break-point": "Break Point",
+          "cold-punishment": "Cold Punishment",
+          "cryo-freezer": "Cryo-Freezer",
+          "electric-punishment": "Electric Punishment",
+          "fiery-punishment": "Fiery Punishment",
+          "flame-thrower": "Flame Thrower",
+          "fly-launcher": "Fly Launcher",
+          "gunlance": "Gunlance",
+          "hornet-launcher": "Hornet Launcher",
+          "laser-blade": "Laser Blade",
+          "laser-knife": "Laser Knife",
+          "light-blade": "Light Blade",
+          "piercer": "Piercer",
+          "railgun": "Railgun",
+          "rotary-gun": "Rotary Gun",
+          "retractable-blades": "Retractable Blades",
+          "screecher": "Screecher",
+          "shock-stun": "Shock Stun",
+          "sonic-punishment": "Sonic Punishment",
+          "taser-sword": "Taser Sword",
+          "wasp-launcher": "Wasp Launcher",
+          "zeepo-gun": "Zeepo Gun"
+        },
+        "creatureTraits": {
+          "drone": {
+            "label": "Drone",
+            "description": "placeholder"
+          },
+          "mech": {
+            "label": "Mech",
+            "description": "placeholder"
+          },
+          "bionic": {
+            "label": "Bionic",
+            "description": "placeholder"
+          },
+          "ship": {
+            "label": "Ship",
+            "description": "placeholder"
+          }
+        },
+        "featTraits": {
+          "mech": {
+            "label": "Mech",
+            "description": "placeholder"
+          },
+          "system": {
+            "label": "System",
+            "description": "placeholder"
+          },
+          "pilot": {
+            "label": "Pilot",
+            "description": "placeholder"
+          }
+        },
+        "spellTraits": {
+          "mech": {
+            "label": "Mech",
+            "description": "placeholder"
+          }
+        },
+        "weaponGroups": {
+          "energy": "Energy",
+          "missile": "Missile",
+          "taser": "Taser"
+        },
+        "weaponTraits": {
+          "automatic": {
+            "label": "Automatic",
+            "description": "In addition to a normal Strike, you can fire this weapon using the Automatic Fire action."
+          },
+          "charging": {
+            "label": "Charging",
+            "description": "Weapons with the charging trait gain the Charge Energy action."
+          },
+          "mech": {
+            "label": "Mech",
+            "description": "placeholder"
+          },
+          "puncture-acid": {
+            "label": "Puncture",
+            "description": "This ranged attack moves with such velocity that it can punch through one main target hitting another creature behind it.  On a hit, the primary target of an attack with a puncture weapon takes the listed damage, and you can treat the target's space as the first square of a 15-foot line directed away from you. the target and other creatures within this line take 1 splash damage of a listed type per weapon damage die. If the target takes up more than a single square, the target’s square furthest from you is the first affected square of the line."
+          },
+          "shock": {
+            "label": "Shock",
+            "description": "On a critical hit, the targeted creature must make a Fortitude saving throw against your class DC, becoming stunned 1 on a failure."
+          },
+          "slowing": {
+            "label": "Slowing",
+            "description": "On a critical hit, the targeted creature takes a -10-foot circumstance penalty to its Speeds."
+          }
+        }
+      }
+    }
+  },
+  "packs": [
+    {
+      "name": "mechfinder-creatures",
+      "label": "Mechfinder Creatures",
+      "path": "packs/mechfinder-creatures",
+      "type": "Actor",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "mechfinder-equipment",
+      "label": "Mechfinder-Equipment",
+      "path": "packs/mechfinder-equipment",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "mechfinder-effects",
+      "label": "Mechfinder Effects",
+      "path": "packs/mechfinder-effects",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "mechfinder-spells",
+      "label": "Mechfinder Spells",
+      "path": "packs/mechfinder-spells",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "mechfinder-spell-effects",
+      "label": "Mechfinder Spell Effects",
+      "path": "packs/mechfinder-spell-effects",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "mechfinder-classes",
+      "label": "Mechfinder Classes",
+      "path": "packs/mechfinder-classes",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "mechfinder-actions",
+      "label": "Mechfinder Actions",
+      "path": "packs/mechfinder-actions",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "mechfinder-feats",
+      "label": "Mechfinder Feats",
+      "path": "packs/mechfinder-feats",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "mechfinder-class-features",
+      "label": "Mechfinder Class Features",
+      "path": "packs/mechfinder-class-features",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "mechfinder-journals",
+      "label": "Mechfinder Journals",
+      "path": "packs/mechfinder-journals",
+      "type": "JournalEntry",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "mechfinder-mech",
+      "label": "Mechfinder Mech Building",
+      "path": "packs/mechfinder-mech",
+      "type": "Item",
+      "system": "pf2e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "mechfinder-backgrounds",
+      "label": "Mechfinder Backgrounds",
+      "path": "packs/mechfinder-backgrounds",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "system": "pf2e"
+    }
+  ],
+  "media": [
+    {
+      "type": "setup",
+      "caption": "Mechfinder: Universe of Mech and Magic",
+      "thumbnail": "modules/pf2e-mechfinder/assets/mechfinderthumbnail.webp"
+    }
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  }
+}
